@@ -25,7 +25,7 @@ To set up FableForgeAI-StoryEngine on your local machine, follow these steps:
 
 1. **Clone the Repository**
 ```
-git clone https://github.com/YourUsername/FableForgeAI-StoryEngine.git
+git clone https://github.com/Mohit6304/FableForgeAI-StoryEngine.git
 cd FableForgeAI-StoryEngine
 ```
 
@@ -35,6 +35,15 @@ cd FableForgeAI-StoryEngine
   ```
   pip install -r requirements.txt
   ```
+
+3. **Configure API Keys**
+- Create a .env file in the root directory of the project.
+- Add the following lines to your .env file:
+ ```
+GEMINI_API_KEY=your_gemini_api_key_here
+HUGGINGFACE_API_KEY=your_huggingface_access_token_here
+ ```
+Replace your_gemini_api_key_here and your_huggingface_access_token_here with your actual API keys.
 
 ## Usage
 
@@ -50,12 +59,3 @@ Upon running, you can access the web interface through your browser at the addre
 - **Story Generator:** Navigate to 'Story Generator', upload an image (optional), provide some details or a theme for your story, and click on "Generate Story".
 - **Comic Video Generator:** Choose 'Comic Video Generator', enter the story prompt in the provided text area, and click on "Generate Comic" to create your comic video.
 
-## Configuration
-
-Before running the application, ensure you configure the necessary API keys in `config.json`:
-```json
-{
-  "GOOGLE_API_KEY": "YOUR_GOOGLE_API_KEY_HERE"
-}
-```
-Replace YOUR_GOOGLE_API_KEY_HERE with your actual Google API key.

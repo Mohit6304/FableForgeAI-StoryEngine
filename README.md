@@ -24,10 +24,10 @@ FableForgeAI-StoryEngine provides a range of features across different domains o
 To set up FableForgeAI-StoryEngine on your local machine, follow these steps:
 
 1. **Clone the Repository**
-```
-git clone https://github.com/Mohit6304/FableForgeAI-StoryEngine.git
-cd FableForgeAI-StoryEngine
-```
+    ```
+    git clone https://github.com/Mohit6304/FableForgeAI-StoryEngine.git
+    cd FableForgeAI-StoryEngine
+    ```
 
 2. **Install Requirements**
 - Ensure you have Python 3.7+ installed on your machine.
@@ -39,10 +39,10 @@ cd FableForgeAI-StoryEngine
 3. **Configure API Keys**
 - Create a .env file in the root directory of the project.
 - Add the following lines to your .env file:
- ```
-GEMINI_API_KEY=your_gemini_api_key_here
-HUGGINGFACE_API_KEY=your_huggingface_access_token_here
- ```
+    ```
+    GEMINI_API_KEY=your_gemini_api_key_here
+    HUGGINGFACE_API_KEY=your_huggingface_access_token_here
+    ```
 Replace your_gemini_api_key_here and your_huggingface_access_token_here with your actual API keys.
 
 ## Usage

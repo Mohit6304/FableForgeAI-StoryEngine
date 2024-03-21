@@ -49,7 +49,7 @@ Replace your_gemini_api_key_here and your_huggingface_access_token_here with you
 
 To use FableForgeAI-StoryEngine, execute the `main.py` script:
 ```
-python main.py
+streamlit run main.py
 ```
 
 Upon running, you can access the web interface through your browser at the address indicated by Streamlit, typically `http://localhost:8501`.

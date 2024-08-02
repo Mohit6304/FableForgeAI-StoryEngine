@@ -2,6 +2,9 @@
 
 Welcome to FableForgeAI-StoryEngine, an innovative platform designed to harness the power of AI for creating engaging narratives, chat experiences, and comic videos. Built with the fusion of several advanced AI models, including Gemini-Pro from Google's generative AI suite, this project offers users a unique opportunity to interact with, and generate creative content in new and exciting ways.
 
+## Architecture
+![architecture](FableForge-Architecture.png)
+
 ## Features
 
 FableForgeAI-StoryEngine provides a range of features across different domains of content creation:

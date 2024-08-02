@@ -135,7 +135,7 @@ if selected == "Comic Video Generator":
     user_prompt = st.text_area(label='', placeholder="Enter the story to generate comic...")
 
     if st.button("Generate Comic"):
-        response = embeddings_model_response(user_prompt)
+        
         client = Client("ADOPLE/Video-Generator-AI")
         result = client.predict(
             user_prompt,	# str  in 'Comics Text' Textbox component

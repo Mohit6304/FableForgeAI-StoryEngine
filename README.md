@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB.svg)](https://python.org)
 
 An AI-powered storytelling platform built with Streamlit and Google's Gemini models. Create stories, generate comics, chat with AI, and more!
-
+![FableForge AI Architecture](FableForge-Architecture.png)
 ## ✨ Features
 
 - 🤖 **AI ChatBot** - Intelligent conversations with streaming responses

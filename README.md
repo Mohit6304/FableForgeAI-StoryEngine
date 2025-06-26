@@ -55,7 +55,7 @@ The installer will automatically:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/FableForgeAI-StoryEngine.git
+   git clone https://github.com/Mohit6304/FableForgeAI-StoryEngine.git
    cd FableForgeAI-StoryEngine
    ```
 
@@ -143,7 +143,7 @@ GEMINI_API_KEY=your_api_key_here
 HUGGINGFACE_API_KEY=your_token_here
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **API Key Issues:**
 - Verify your `.env` file exists and contains valid keys
@@ -158,7 +158,5 @@ HUGGINGFACE_API_KEY=your_token_here
 - Run `pip install -r requirements.txt` again
 - Check Python path and virtual environment
 
----
 
-Built with ❤️ using Streamlit | Powered by Google Gemini AI
 
